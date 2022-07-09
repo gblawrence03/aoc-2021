@@ -1,6 +1,6 @@
 import os
 
-f = open(os.path.join(os.path.dirname(__file__), "data/day1.txt"), 'r')
+f = open(os.path.join(os.path.dirname(__file__), "../data/day1.txt"), 'r')
 depths = [int(line) for line in f.read().splitlines()]
 
 # PART 1 - this is essentially a special case of part 2 
